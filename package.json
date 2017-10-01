@@ -1,0 +1,15 @@
+{
+  "name": "dealdetails",
+  "version": "1.0.0",
+  "description": "[![CI Status](http://img.shields.io/travis/Shaheen Ghiassy/dealdetails.svg?style=flat)](https://travis-ci.org/Shaheen Ghiassy/dealdetails) [![Version](https://img.shields.io/cocoapods/v/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails) [![License](https://img.shields.io/cocoapods/l/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails) [![Platform](https://img.shields.io/cocoapods/p/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.groupondev.com:shaheen/dealdetails.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
