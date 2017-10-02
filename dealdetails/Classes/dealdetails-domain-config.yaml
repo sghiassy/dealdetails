@@ -22,4 +22,4 @@ paths:
         '200':
           description: Show the main DealDetails page from the provided dealid
           type: UIKit/UIViewController
-          file: CarouselViewController.swift
+          file: DeaDetailsViewController.swift
