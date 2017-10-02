@@ -28,15 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Shaheen Ghiassy/dealdetails.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'dealdetails/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'dealdetails' => ['dealdetails/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'dealdetails' => ['dealdetails/Assets/*.png']
+  }
+  s.resources = "dealdetails/**/*.{png,json,yaml}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AirGap'
 end

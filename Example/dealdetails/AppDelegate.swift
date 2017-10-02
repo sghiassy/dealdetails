@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import dealdetails
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var nav: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let initialViewController = DealDetailsViewController()
+        initialViewController.view.frame = UIScreen.main.bounds
+        self.nav = UINavigationController(rootViewController: initialViewController)
+        self.nav?.setNavigationBarHidden(true, animated: false)
+        
+        self.window?.rootViewController = self.nav
+        UIApplication.shared.isStatusBarHidden = true
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
