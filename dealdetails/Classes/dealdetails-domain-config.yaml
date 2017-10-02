@@ -10,11 +10,9 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 domain:
-  url: carousel.groupon.com
+  url: dealdetails.groupon.com
   description: The main prod server
-aliases:
-  - host: gorpon.herokuapp.com
-routeHandler: CarouselRouteHandler
+routeHandler: DealDetailsRouteHandler
 paths:
   /:dealId:
     get:
