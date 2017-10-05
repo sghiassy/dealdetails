@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AA3FFB721F85EE4C00CD42F7 /* Airgap.json in Resources */ = {isa = PBXBuildFile; fileRef = AA3FFB711F85EE4C00CD42F7 /* Airgap.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		65112223E601396B21D8CE01 /* Pods-dealdetails_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dealdetails_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dealdetails_Tests/Pods-dealdetails_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65B2B18AA204FB762769573B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D49C188B1909405513140F7 /* Pods-dealdetails_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dealdetails_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-dealdetails_Example/Pods-dealdetails_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AA3FFB711F85EE4C00CD42F7 /* Airgap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Airgap.json; path = ../../Airgap.json; sourceTree = "<group>"; };
 		C30829FD44A3F162EBDDA11B /* dealdetails.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = dealdetails.podspec; path = ../dealdetails.podspec; sourceTree = "<group>"; };
 		CEC4D103131B42E1BA2AE53B /* Pods-dealdetails_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dealdetails_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dealdetails_Example/Pods-dealdetails_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D22DA68AAB622B776507DA37 /* Pods_dealdetails_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dealdetails_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AA3FFB711F85EE4C00CD42F7 /* Airgap.json */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AA3FFB721F85EE4C00CD42F7 /* Airgap.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

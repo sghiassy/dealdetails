@@ -1,0 +1,7 @@
+{
+    "domains": [{
+        "config" : "dealdetails-domain-config",
+        "bundle" : "org.cocoapods.dealdetails"
+      }
+    ]
+}
