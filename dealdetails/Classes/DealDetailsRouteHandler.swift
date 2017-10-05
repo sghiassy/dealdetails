@@ -10,9 +10,11 @@ import AirGap
 
 class DealDetailsRouteHandler: RouteHandler {
     override open func routes(server:Server) {
-        server.onSHOW("/") { (req, res, done) in
-            res.viewC = DealDetailsViewController()
+        
+        server.on(.SHOW, "/deals/:dealId") { (req, res, done) in
+            res.viewC = DealDetailsViewController(dealId:req.param("dealId"))
             done()
         }
+        
     }
 }

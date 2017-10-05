@@ -2,8 +2,13 @@ PODS:
   - AirGap (0.1.0):
     - NSURL+QueryDictionary
     - Yaml
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
   - dealdetails (0.1.0):
     - AirGap
+    - Alamofire
+    - AlamofireImage
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -22,6 +27,8 @@ PODS:
 
 DEPENDENCIES:
   - AirGap (from `../../air-gap/`)
+  - Alamofire
+  - AlamofireImage
   - dealdetails (from `../`)
   - FBSnapshotTestCase
   - Nimble (~> 5.1.1)
@@ -36,7 +43,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AirGap: eb0a0f75d8e11905b42955f626929658fef8346a
-  dealdetails: 1c72499ea85d510f3153edcacd711bbbd8f403de
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  dealdetails: c6bfcd0e3004d9e076fb3b4e2ac6e25bcf614fe2
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
@@ -44,6 +53,6 @@ SPEC CHECKSUMS:
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
   Yaml: 18b2cf7301c4132e2bbb508a6921d2637ed3046c
 
-PODFILE CHECKSUM: 84582e3e2c8bdaa7412595b879b808f406b83a93
+PODFILE CHECKSUM: 2e56c8f36543db2cf1fb0bdb33cf0face057566a
 
 COCOAPODS: 1.3.1

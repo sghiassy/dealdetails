@@ -4,6 +4,8 @@ use_frameworks!
 target 'dealdetails_Example' do
   pod 'dealdetails', :path => '../'
   pod 'AirGap', :path => '../../air-gap/'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
   target 'dealdetails_Tests' do
     inherit! :search_paths

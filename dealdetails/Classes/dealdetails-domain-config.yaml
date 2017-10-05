@@ -14,12 +14,10 @@ domain:
   description: The main prod server
 routeHandler: DealDetailsRouteHandler
 paths:
-  /:dealId:
+  /deals/:dealId:
     get:
       summary: deal details page
       description: This is the main page
       responses:
         '200':
           description: Show the main DealDetails page from the provided dealid
-          type: UIKit/UIViewController
-          file: DeaDetailsViewController.swift
