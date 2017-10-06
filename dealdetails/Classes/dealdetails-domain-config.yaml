@@ -15,7 +15,7 @@ domain:
 routeHandler: DealDetailsRouteHandler
 paths:
   /deals/:dealId:
-    get:
+    show:
       summary: deal details page
       description: This is the main page
       responses:
