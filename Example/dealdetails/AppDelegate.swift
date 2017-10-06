@@ -7,26 +7,30 @@
 //
 
 import UIKit
-import dealdetails
+import AirGap
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-    var nav: UINavigationController?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        let initialViewController = DealDetailsViewController(dealId:"gl-pompeii-the-exhibition-and-the-oregon-museum-of-science-and-industry-omsi-1")
-        initialViewController.view.frame = UIScreen.main.bounds
-        self.nav = UINavigationController(rootViewController: initialViewController)
-        self.nav?.setNavigationBarHidden(true, animated: false)
+        self.setupWindow()
         
-        self.window?.rootViewController = self.nav
-        UIApplication.shared.isStatusBarHidden = true
-        self.window?.makeKeyAndVisible()
+        Browser.show("dealdetails.groupon.com/deals/skogg-gym")
         
         return true
+    }
+    
+    func setupWindow() {
+        UIApplication.shared.isStatusBarHidden = true // Hide the Status Bar
+        self.window = UIWindow(frame: UIScreen.main.bounds) // Init Application's Main Window and Show
+        
+        Browser.setup()
+        Browser.frame = UIScreen.main.bounds
+        self.window?.rootViewController = Browser.rootViewController
+        
+        self.window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

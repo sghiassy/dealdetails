@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AirGap: eb0a0f75d8e11905b42955f626929658fef8346a
+  AirGap: 840c90ec4958a3fe734202a3683e50ca3fe8abf7
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
   dealdetails: c6bfcd0e3004d9e076fb3b4e2ac6e25bcf614fe2
