@@ -1,9 +1,9 @@
-platform :ios, '10.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'dealdetails_Example' do
   pod 'dealdetails', :path => '../'
-  pod 'AirGap', :path => '../../air-gap/'
+  pod 'AirGap', :path => '~/Dev/Groupon/AirGap/'
   pod 'Alamofire'
   pod 'AlamofireImage'
 

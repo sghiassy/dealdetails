@@ -26,7 +26,7 @@ PODS:
   - Yaml (3.3.1)
 
 DEPENDENCIES:
-  - AirGap (from `../../air-gap/`)
+  - AirGap (from `~/Dev/Groupon/AirGap/`)
   - Alamofire
   - AlamofireImage
   - dealdetails (from `../`)
@@ -37,15 +37,15 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   AirGap:
-    :path: ../../air-gap/
+    :path: ~/Dev/Groupon/AirGap/
   dealdetails:
     :path: ../
 
 SPEC CHECKSUMS:
-  AirGap: 840c90ec4958a3fe734202a3683e50ca3fe8abf7
+  AirGap: 5c70b12db8b32e702915bf1304425f16e8198951
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
-  dealdetails: c6bfcd0e3004d9e076fb3b4e2ac6e25bcf614fe2
+  dealdetails: 9b00974fc2cf6e5eb21f236bd39a530110c1f353
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
@@ -53,6 +53,6 @@ SPEC CHECKSUMS:
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
   Yaml: 18b2cf7301c4132e2bbb508a6921d2637ed3046c
 
-PODFILE CHECKSUM: 2e56c8f36543db2cf1fb0bdb33cf0face057566a
+PODFILE CHECKSUM: 5a7fdad393286a9c44d1e9f7e78b9927e57c27e2
 
 COCOAPODS: 1.3.1

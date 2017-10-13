@@ -4,7 +4,7 @@
   "description": "[![CI Status](http://img.shields.io/travis/Shaheen Ghiassy/dealdetails.svg?style=flat)](https://travis-ci.org/Shaheen Ghiassy/dealdetails) [![Version](https://img.shields.io/cocoapods/v/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails) [![License](https://img.shields.io/cocoapods/l/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails) [![Platform](https://img.shields.io/cocoapods/p/dealdetails.svg?style=flat)](http://cocoapods.org/pods/dealdetails)",
   "main": "index.js",
   "scripts": {
-    "install": "cd Example; pod install; cd -",
+    "pod:install": "cd Example; pod install; cd -",
     "x": "open Example/dealdetails.xcworkspace"
   },
   "repository": {

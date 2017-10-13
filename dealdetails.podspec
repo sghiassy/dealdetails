@@ -21,21 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Shaheen Ghiassy/dealdetails'
+  s.homepage         = 'https://github.groupondev.com/shaheen/dealdetails'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaheen Ghiassy' => 'shaheen@groupon.com' }
-  s.source           = { :git => 'https://github.com/Shaheen Ghiassy/dealdetails.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.groupondev.com/shaheen/dealdetails.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'dealdetails/Classes/**/*'
   
   s.resource_bundles = {
     'dealdetails' => ['dealdetails/Assets/*.png']
   }
-  s.resources = "dealdetails/**/*.{png,json,yaml}"
+  s.resources = "dealdetails/Assets/**/*.{png,json,yaml}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
