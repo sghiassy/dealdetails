@@ -1,6 +1,7 @@
 PODS:
   - AirGap (0.1.0):
     - NSURL+QueryDictionary
+    - TransitionTreasury
     - Yaml
   - Alamofire (4.5.1)
   - AlamofireImage (3.3.0):
@@ -23,6 +24,7 @@ PODS:
     - Quick
   - NSURL+QueryDictionary (1.2.0)
   - Quick (1.0.0)
+  - TransitionTreasury (4.1.0)
   - Yaml (3.3.1)
 
 DEPENDENCIES:
@@ -42,7 +44,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AirGap: 5c70b12db8b32e702915bf1304425f16e8198951
+  AirGap: a211db31cb072a15cb1c6e3155254af2ea2c3668
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
   dealdetails: 9b00974fc2cf6e5eb21f236bd39a530110c1f353
@@ -51,6 +53,7 @@ SPEC CHECKSUMS:
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   NSURL+QueryDictionary: bae616404e2adf6409d3d5c02a093cbf44c8a236
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  TransitionTreasury: c3b541a2073ee3060519835afa10791bd4ba55f9
   Yaml: 18b2cf7301c4132e2bbb508a6921d2637ed3046c
 
 PODFILE CHECKSUM: 5a7fdad393286a9c44d1e9f7e78b9927e57c27e2
